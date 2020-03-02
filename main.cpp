@@ -2,14 +2,22 @@
 
 using namespace std;
 
-class Circle {
+class Circle
+{
 public:
     float radius_;
+    Circle(float);
 };
+
+Circle::Circle(float a)
+{
+    radius_=a;
+}
 
 int main()
 {
-    Circle.radius_ = 1;
-    cout<<Circle.radius_<<endl;
+    Circle r;
+
     return 0;
 }
+
